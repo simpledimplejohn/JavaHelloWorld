@@ -1,10 +1,10 @@
 package com.company.examples;
 
 public class Sketch {
-    //        LoopsExamples loopsExamples = new LoopsExamples();
-////        loopsExamples.forLoopExample();
-//    InterfaceExample interFaceExample = new InterfaceExample();
-//        System.out.println(interFaceExample.isThree(2));
-//        System.out.println(interFaceExample.isThree(3));
-//        System.out.println(interFaceExample.isThree(4));
+    char[] charArray = { 'a', 'b', 'c', 'd', 'e' };
+    public void forLoop() {
+        for (char c : charArray) {
+            System.out.println("char: " + c);
+        }
+    }
 }
